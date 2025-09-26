@@ -33,7 +33,7 @@ const OwnerLogin = () => {
         [name]: ''
       });
     }
-    // Clear API errors when user starts typing
+
     if (apiError) {
       setApiError('');
     }
@@ -213,4 +213,5 @@ const OwnerLogin = () => {
 
 
 export default OwnerLogin;
+
 
