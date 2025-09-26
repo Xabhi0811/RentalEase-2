@@ -61,7 +61,7 @@ const OwnerLogin = () => {
       setApiError('');
       
       try {
-        // Update the endpoint to match your backend login API
+      
         // If you're not sure of the exact endpoint, try common ones like:
         // /admin/login, /admin/auth, /admin/signin, /admin/authenticate
         const response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/admin/login`, {
@@ -213,5 +213,6 @@ const OwnerLogin = () => {
 
 
 export default OwnerLogin;
+
 
 
