@@ -63,7 +63,7 @@ const OwnerLogin = () => {
       try {
       
       
-        // /admin/login, /admin/auth, /admin/signin, /admin/authenticate
+      
         const response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/admin/login`, {
           method: 'POST',
           headers: {
@@ -213,6 +213,7 @@ const OwnerLogin = () => {
 
 
 export default OwnerLogin;
+
 
 
 
