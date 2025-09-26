@@ -75,7 +75,7 @@ const OwnerLogin = () => {
         const data = await response.json();
         
         if (response.ok) {
-          // Save token and user data based on your API response structure
+          
           // From your signup example, it returns data.token and data.user
           setAuthToken(data.token);
           setUser(data.user || data.owner || data.admin);
@@ -213,6 +213,7 @@ const OwnerLogin = () => {
 
 
 export default OwnerLogin;
+
 
 
 
