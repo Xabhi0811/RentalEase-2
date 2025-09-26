@@ -26,7 +26,7 @@ const OwnerLogin = () => {
       ...formData,
       [name]: value
     });
-    // Clear error when user starts typing
+   
     if (errors[name]) {
       setErrors({
         ...errors,
@@ -213,3 +213,4 @@ const OwnerLogin = () => {
 
 
 export default OwnerLogin;
+
