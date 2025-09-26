@@ -80,7 +80,7 @@ const OwnerLogin = () => {
           setAuthToken(data.token);
           setUser(data.user || data.owner || data.admin);
           
-          // Redirect to dashboard or home page after successful login
+         
           navigate('/property-host-form');
         } else {
           // Enhanced error handling
@@ -213,6 +213,7 @@ const OwnerLogin = () => {
 
 
 export default OwnerLogin;
+
 
 
 
