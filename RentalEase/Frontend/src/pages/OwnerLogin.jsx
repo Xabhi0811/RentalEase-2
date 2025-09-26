@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 
-// Utility functions for authentication
+
 const setAuthToken = (token) => {
   localStorage.setItem('ownerToken', token);
 };
@@ -210,5 +210,6 @@ const OwnerLogin = () => {
     </div>
   );
 };
+
 
 export default OwnerLogin;
