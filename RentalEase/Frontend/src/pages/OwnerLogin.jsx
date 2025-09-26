@@ -76,7 +76,7 @@ const OwnerLogin = () => {
         
         if (response.ok) {
           
-          // From your signup example, it returns data.token and data.user
+         
           setAuthToken(data.token);
           setUser(data.user || data.owner || data.admin);
           
@@ -213,6 +213,7 @@ const OwnerLogin = () => {
 
 
 export default OwnerLogin;
+
 
 
 
