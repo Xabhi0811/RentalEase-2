@@ -43,7 +43,7 @@ Before you begin, ensure you have:
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/Xabhi0811/RentalEase.git
+   git clone https://github.com/Xabhi0811/RentalEase.git](https://github.com/Xabhi0811/RentalEase-2
    cd RentalEase
 Install dependencies
 
